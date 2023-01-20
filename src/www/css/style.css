@@ -33,6 +33,37 @@ header#header img.apps{
     margin-top: 1.5%;
 }
 
+#textoBuscador{
+    position: relative;
+    bottom: 40px;
+    color: #FFF;
+    left: 40px;
+}
+
+#barraBuscador{
+    background-color: rgb(61, 61, 61);
+    border: none;
+    color: #FFF;
+    position: relative;
+    bottom: 40px;
+    left: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5);
+}
+
+#botonBuscador{
+    display: inline;
+    position: relative;
+    bottom: 40px;
+    left: 50px;
+    background-color: #a08eeaa1;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5);
+    padding: 0.5%;
+}
+
+
 div#titulo{
     position: absolute;
     color:#FFF;
@@ -82,7 +113,7 @@ div#titulo button:hover{
 
 /************** VISTA LISADO **************/
 
-div#listado{
+div#divListar{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -92,7 +123,7 @@ div#listado{
     margin-bottom: 5%;
 }
 
-div#listado div{
+div#divListar div{
     background-color: #221946e9;
     width: 15%;
     padding: 1%;
@@ -166,8 +197,21 @@ div#formularioAnadir label{
     font-weight: bold;
 }
 
-div#formularioAnadir input#botonAnadir{
-    background-color: #110b29;
+div#formularioAnadir #buttonAnadir{
+    background-color: #3e9c32;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.199);
+    padding: 2%;
+}
+
+div#formularioAnadir #buttonVaciar{
+    background-color: #922222;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.199);
     padding: 2%;
 }
 
